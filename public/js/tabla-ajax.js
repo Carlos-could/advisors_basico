@@ -1,25 +1,23 @@
 
 ( function ($) {
-         $(document).ready(function () {
+     $(document).ready(function () {
+
+        var date = {
+            action: 'funciona'
+        }
+
+        $.ajax({
+            url:    admin_url.ajax_url,
+            type: 'GET',
+            data: date
+        }).done( function (response) {
+          console.log(typeof response);
+          console.log(response);
 
 
-            var datos = {
-                action: 'funciona'
-                //data: "x"
-            }
+
+        }); // fin done
 
 
-            $.ajax({
-                url:    admin_url.ajax_url,
-                type: 'GET',
-                data: datos
-            }).done( function (respuesta) {
-              console.log(respuesta);
-            
-
-
-            }); // fin done
-
-                console.log(admin_url);
-         });
+     });
 })(jQuery);
