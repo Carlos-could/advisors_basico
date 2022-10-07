@@ -7,10 +7,12 @@
         }
 
         $.ajax({
-            url:    admin_url.ajax_url,
+            url: admin_url.ajax_url,
             type: 'GET',
-            data: date
+            data: date,
+            //dateType: 'json'
         }).done( function (response) {
+          //console.log( $(response).find('food').text() );
           console.log(typeof response);
           console.log(response);
 
@@ -21,3 +23,5 @@
 
      });
 })(jQuery);
+
+//simplexml_load_string
