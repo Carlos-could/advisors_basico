@@ -1,0 +1,24 @@
+.box-edi {
+  margin: 10px 0px 30px 0px;
+}
+.font-edi {
+  font-size: 0.9rem;
+}
+.titel-edi {
+  font-weight: bold;
+}
+.text-center-edi{
+  text-align: center;
+}
+.text-left-edi{
+  text-align: left;
+}
+table{
+  border: none;
+}
+th {
+  border-width: 0px 0px 3px 0px;
+}
+td {
+  border-width: 0px 0px 1px 0px;
+}

@@ -45,7 +45,7 @@ class AdvisorChart {
             <h3>shorcode chart:  <strong>[advisors_chart]</strong></h3>
             <h3>shorcode chart:  <strong>[advisors_tabelle]</strong></h3>
           </section>
-          
+
         </div>
         <?php
     }
@@ -64,11 +64,11 @@ require_once plugin_dir_path(__FILE__) . 'includes/scripts.php';
 
 
 /*
-* Enviar datos
+* Enviar datos Tabelle
 */
-require_once plugin_dir_path(__FILE__) . 'includes/resultados.php';
+require_once plugin_dir_path(__FILE__) . 'includes/response_tabelle.php';
 
-
-
-
-
+/*
+* Enviar datos Chart
+*/
+require_once plugin_dir_path(__FILE__) . 'includes/response_chart.php';
