@@ -4,6 +4,13 @@ if(!defined ('ABSPATH')) exit;
 
 //---------------------------------styles und scripts
 
+// function advisors_admin_styles( $hook) {
+//   if ($hook == "Advisor's Studio") {
+//     wp_enqueue_style('advisor_admin_css', plugins_url('../admin/css/admin-advisors.css', __FILE__) );
+//   }
+// }
+// add_action ('admin_enqueue_scripts', 'advisors_admin_styles');
+
 function advisors_fronted_styles() {
     wp_enqueue_style('tabelle_css', plugins_url('../public/css/tabelle.css', __FILE__) );
 

@@ -1,8 +1,7 @@
 <?php
-
 if(!defined ('ABSPATH')) exit;
+?>
 
-echo '
 <div class="" style="margin: 10px 0px 30px 0px;">
   <h4>Mischfonds</h4>
 
@@ -14,4 +13,3 @@ echo '
 
   </div>
 </div>
-';

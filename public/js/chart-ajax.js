@@ -1,7 +1,8 @@
 ( function ($) {
   $(document).ready(function () {
 
-    var url = "http://localhost/carlosPlugin/wp-content/plugins/advisors_basico/includes/data/zeus-strategie.json";
+    //var url = "http://localhost/carlosPlugin/wp-content/plugins/advisors_basico/includes/data/zeus-strategie.json";
+    var url = "http://localhost/miwordpress/wp-content/plugins/advisors_basico/includes/data/zeus-strategie.json";
 
     Highcharts.getJSON(url, function (data) {
 

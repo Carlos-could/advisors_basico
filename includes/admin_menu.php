@@ -20,20 +20,25 @@ class AdvisorChart {
     }
 
     function advisor_page_html() {
-        ?>
-        <div class="wrap" style="text-align: center">
-          <h1>Advisor's Studio Plugin</h1>
-          <p>Die konsolidierte Investmentplattform</p>
-          <section>
-            <h2>Shortcodes</h2>
-            <h3>Chart:  <strong>[advisors_chart]</strong></h3>
-            <p>Fügen Sie den folgenden Shortcode ein und das Chart-Grafik wird angezeigt</p>
-            <h3>Tabelle: </h3>
-            <p>Fügen Sie den folgenden Shortcode ein und die Tabelle wird angezeigt</p>
-
-          </section>
-
+?>
+    <div class="wrap" style="text-align: center">
+      <h1>Advisor's Studio Plugin</h1>
+      <p>Die konsolidierte Investmentplattform</p>
+      <section>
+        <p><strong>Kopieren Sie den Shortcode, den Sie zu Ihrer Website hinzufügen möchten, und fügen Sie ihn in den WordPress Widget-Shortcode ein.</strong></p>
+        <div style="">
+          <h1>Chart</strong></h1>
+          <h3>Shortcode Chart:  [advisors_chart]</h3>
+          <img style="max-width:20%" src=" http://localhost/miwordpress/wp-content/plugins/advisors_basico/admin/img/chart.png ">
         </div>
-        <?php
+        <div >
+          <h1>Tabelle</h1>
+          <h3>Shortcode Tabelle:  [advisors_tabelle]</h3>
+          <img style="max-width:20%" src=" http://localhost/miwordpress/wp-content/plugins/advisors_basico/admin/img/tabelle.png ">
+        </div>
+      </section>
+
+    </div>
+<?php
     }
 }
