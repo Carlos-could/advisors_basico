@@ -11,23 +11,20 @@
           data: date,
           dateType: 'JSON'
       }).done( function (response) {
-        //console.log(typeof response);
-        //console.log(response['CD'][1]['TITLE']);
-        //console.log(response['CD']);
+
         let res = document.querySelector('#res')
         res.innerHTML = '';
 
         for(var i =0; i<5; i++){
           res.innerHTML += `
             <tr>
-              <td>` + response['CD'][i]['TITLE'] + `</td>
-              <td>` + response['CD'][i]['ARTIST'] + `</td>
-              <td class="text-center-edi">` + response['CD'][i]['PRICE'] + `</td>
+              <td>` + response['fond'][i]['name'] + `</td>
+              <td class="text-center-edi">` + response['fond'][i]['porcent'] + `</td>
             </tr>
           `
         }
 
-      }); // fin done
+      });
 
    });
 })(jQuery);

@@ -2,11 +2,11 @@
 
 if(!defined ('ABSPATH')) exit;
 
-//------------------------------------------------------------ shortcode chart
+//----------------------------------shortcode chart
 
 function chart_shortcode_funcion() {
   ob_start();
-  include('html_canva_chart.php');
+  include('html_chart.php');
   $data = ob_get_contents();
   ob_end_clean();
   return $data;
@@ -19,7 +19,7 @@ function chart_shortcode_funcion() {
 add_action( 'init', 'chart_shortcode_funcion_init' );
 
 
-//----------------------------------------------------------- shortcode tabelle
+//------------------------------------ shortcode tabelle
 
 function tabelle_shortcode_funcion() {
   ob_start();

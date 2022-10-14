@@ -1,13 +1,12 @@
+<?php
+
+if(!defined ('ABSPATH')) exit;
+
+echo '
 <div class="box-edi">
-  <h4 style="margin-bottom: 10px;">Advisor's Studio</h4>
+  <h4 style="margin-bottom: 10px;">Dachfonds</h4>
+  <p>Wertentwicklung zum Vormonat/Stichtag 14.10.2022</p>
   <table id="cds" class="font-edi">
-      <thead>
-          <tr class="titel-edi">
-              <th class="text-left-edi">Titulo</th>
-              <th class="text-left-edi">Artista</th>
-              <th class="text-center-edi">Año</th>
-          </tr>
-      </thead>
       <tbody id = "res">
 
       </tbody>
@@ -16,3 +15,4 @@
     Create by <a href="https://www.advisors-studio.de/" target="_blank" rel="nofollow">Edisoft</a>
   </div>
 </div>
+';
