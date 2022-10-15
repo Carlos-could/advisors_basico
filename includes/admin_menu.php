@@ -29,12 +29,13 @@ class AdvisorChart {
         <div style="">
           <h1>Chart</strong></h1>
           <h3>Shortcode Chart:  [advisors_chart]</h3>
-          <img style="max-width:20%" src=" http://localhost/miwordpress/wp-content/plugins/advisors_basico/admin/img/chart.png ">
+          <img style="max-width:20%" src=" <?php echo plugin_dir_url(__FILE__).'../admin/img/chart.png' ; ?> ">
+
         </div>
         <div >
           <h1>Tabelle</h1>
           <h3>Shortcode Tabelle:  [advisors_tabelle]</h3>
-          <img style="max-width:20%" src=" http://localhost/miwordpress/wp-content/plugins/advisors_basico/admin/img/tabelle.png ">
+          <img style="max-width:20%" src=" <?php echo plugin_dir_url(__FILE__).'../admin/img/tabelle.png' ; ?> ">
         </div>
       </section>
 

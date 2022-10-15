@@ -3,8 +3,7 @@ if(!defined ('ABSPATH')) exit;
 
 function read_xml_tabelle() {
 
-  //$path = 'http://localhost/carlosPlugin/wp-content/plugins/advisors_basico/includes/data/dachfonds.xml';
-  $path = 'http://localhost/miwordpress/wp-content/plugins/advisors_basico/includes/data/dachfonds.xml';
+  $path = plugin_dir_url(__FILE__).'/data/dachfonds.xml';
 
    $xml = simplexml_load_file($path) ;
 
