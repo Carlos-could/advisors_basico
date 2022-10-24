@@ -1,15 +1,15 @@
 <?php
 
 /*
-Plugin Name: Advisors
-Plugin URI:
+Plugin Name: Edisoft
+Plugin URI: https://www.edisoft.de/home.html
 Description: Die konsolidierte Investmentplattform
 Version: 1.0
-Author: Carlos
+Author: Carlos Moran
 Author URI:
 License: GPLv2
 */
-//require_once plugin_dir_path(__FILE__) . 'includes/urlrelative.php';
+
 
 /*
 *  Administration Menus
@@ -17,7 +17,7 @@ License: GPLv2
 require_once plugin_dir_path(__FILE__) . 'includes/admin_menu.php';
 
 /*
-* add un Shortcode
+* add Shortcode
 */
 require_once plugin_dir_path(__FILE__) . 'includes/shortcode.php';
 

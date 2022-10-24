@@ -4,7 +4,6 @@ if(!defined ('ABSPATH')) exit;
 
 //---------------------------------styles und scripts
 
-
 function advisors_fronted_styles() {
     wp_enqueue_style('tabelle_css', plugins_url('../public/css/tabelle.css', __FILE__) );
 
